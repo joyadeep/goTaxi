@@ -1,8 +1,8 @@
 import React from 'react'
 import { FeatureCard } from '../components/FeatureCard'
-import taxiPooling from '/assets/images/taxiPooling.png';
-import booking from '/assets/images/BookingandHiring.png';
-import transparentDocument from '/assets/images/TransparentDocument.png'; 
+import taxiPooling from '../assets/images/taxiPooling.png';
+import booking from '../assets/images/BookingandHiring.png';
+import transparentDocument from '../assets/images/TransparentDocument.png'; 
 const features=[
 {
     id:1,
