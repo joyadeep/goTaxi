@@ -9,6 +9,7 @@ const features=[
     num:"01",
     title:"taxi pooling",
     image:taxiPooling,
+    delay:"0",
     description:"Cab booking has become an essential part of modern life, is often overcrowded or inconvenient. With the rise of ride-sharing apps like Uber, Lyft, and Grab, it's"
 },
 {
@@ -16,6 +17,7 @@ const features=[
     num:"02",
     title:"booking and hiring",
     image:booking,
+    delay:"1000",
     description:"Cab booking has become an essential part of modern life, is often overcrowded or inconvenient. With the rise of ride-sharing apps like Uber, Lyft, and Grab, it's"
 },
 {
@@ -23,6 +25,7 @@ const features=[
     num:"03",
     title:"Transparent document",
     image:transparentDocument,
+    delay:"2000",
     description:"Cab booking has become an essential part of modern life, is often overcrowded or inconvenient. With the rise of ride-sharing apps like Uber, Lyft, and Grab, it's"
 }
 ]
@@ -41,7 +44,7 @@ const Features = () => {
         <div className='w-3/5 flex  justify-around'>
 {
     features.map((item)=>(
-        <FeatureCard key={item.id} num={item.num} title={item.title} image={item.image} description={item.description} />
+        <FeatureCard key={item.id} num={item.num} title={item.title} image={item.image} delay={item.delay} description={item.description} />
     ))
 }            
         </div>
