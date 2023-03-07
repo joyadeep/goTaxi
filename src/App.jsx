@@ -7,13 +7,13 @@ import Features from "./pages/Features"
 function App() {
 
   return (
-<>
+<div className="font-display">
     <Header/>
     <Landing/>
     <About/>
     <HallMarks/>
     <Features/>
-</>  
+</div>  
   )
 }
 

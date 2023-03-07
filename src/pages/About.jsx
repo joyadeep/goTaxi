@@ -30,9 +30,9 @@ const About = () => {
         <div className=' w-3/4 pt-4'>
             <p className='text-4xl font-semibold text-center'>Affordable Taxi Service at the palm of your hands</p>
             <div className='flex justify-between w-2/5 mx-auto mt-5'>
-                <p className='text-2xl font-semibold'>Book</p>
-                <p className='text-2xl font-semibold'>Schedule</p>
-                <p className='text-2xl font-semibold'>Share</p>
+                <p className='text-2xl font-medium'>Book</p>
+                <p className='text-2xl font-medium'>Schedule</p>
+                <p className='text-2xl font-medium'>Share</p>
             </div>
             <p className='text-justify mx-5 mt-5'>
             Cab booking has become an essential part of modern life, 

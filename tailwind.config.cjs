@@ -5,6 +5,9 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      display: ['Poppins', 'sans-serif'],
+    },
     extend: {
       backgroundImage: { 'background': "url('/src/assets/images/RoadTaxi.png')" }
     },
