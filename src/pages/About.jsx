@@ -26,21 +26,21 @@ const services=[
 
 const About = () => {
   return (
-    <div className='flex w-full h-screen bg-slate-50 px-10 gap-4 '>
-        <div className=' w-3/4 pt-4'>
+    <div className='flex w-full h-fit pb-10 bg-slate-50 px-4 sm:px-4 md:px-5 lg:px-10 xl:px-10 gap-4 '>
+        <div className='w-full sm:w-full md:w-3/4 lg:w-3/4 xl:w-3/4 pt-4'>
             <p className='text-4xl font-semibold text-center'>Affordable Taxi Service at the palm of your hands</p>
-            <div className='flex justify-between w-2/5 mx-auto mt-5'>
+            <div className='flex justify-between md:w-3/4 lg:w-3/5 xl:w-2/5 mx-auto mt-5'>
                 <p data-aos="fade-left"   className='text-2xl font-medium'>Book</p>
                 <p data-aos="fade-down" data-aos-delay="500" className='text-2xl font-medium'>Schedule</p>
                 <p data-aos="fade-right" data-aos-delay="1500" className='text-2xl font-medium'>Share</p>
             </div>
-            <p className='text-justify mx-5 mt-5'>
+            <p className='text-justify mx-0 sm:mx-0 md:mx-5 lg:mx-5 xl:mx-5 mt-5'>
             Cab booking has become an essential part of modern life, 
                is often overcrowded or inconvenient. With the rise of ride-sharing apps like Uber, Lyft, and Grab, it's easier than ever to book a ride from your smartphone and get to your destination quickly and safely.
             </p>
             <div className='mt-10'>
-                <p className='text-3xl font-semibold text-center  '>Our Services</p>
-               <div className='flex justify-between w-11/12 mx-auto mt-5'>
+                <p className='text-3xl font-medium text-center  '>Our Services</p>
+               <div className='flex justify-between w-full sm:w-full md:w-11/12 lg:w-11/12 xl:w-11/12 mx-auto mt-5'>
                {
                 services.map((item)=>(
                     <ServiceCard key={item.id} image={item.image} title={item.title} />
@@ -54,7 +54,7 @@ const About = () => {
             </div>
 
         </div>
-        <div className=' w-1/4 flex align-middle justify-center '>
+        <div className='hidden sm:hidden md:flex lg:flex xl:flex w-1/4 align-middle justify-center '>
             <img src={GoTaxilogo} className=" object-contain" />
         </div>
     </div>
